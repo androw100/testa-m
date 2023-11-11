@@ -120,7 +120,7 @@ nav {
 }
 
 .myback {
-  background-image: url(../image/D5.jpg);
+  background-image: url(../image/D3.jpg);
   background-attachment: fixed;
   display: flex;
   text-align: center;
@@ -259,7 +259,7 @@ footer h5 {
 @media only screen and (max-width: 500px) {
 
   .mytext {
-    margin-top: 150px;
+    margin-top: 300px;
     color: white;
   }
 
