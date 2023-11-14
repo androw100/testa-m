@@ -120,7 +120,7 @@ nav {
 }
 
 .myback {
-  background-image: url(../image/D5.jpg);
+  background-image: url(../image/D7.jpg);
   background-attachment: fixed;
   display: flex;
   text-align: center;
@@ -189,10 +189,22 @@ nav {
 }
 
 
+.thumbnail_1 img {
+  width: 120px;
+}
 
 
+.thumbnail_2 img {
+  width: 120px;
+}
 
+.thumbnail_3 img {
+  width: 120px;
+}
 
+.thumbnail_4 img {
+  width: 120px;
+}
 
 
 footer {
