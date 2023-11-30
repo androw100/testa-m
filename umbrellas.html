@@ -469,115 +469,25 @@
             </div>
         </div>
     </div>
-    <footer id="contact">
-        <h2 class="orn p-2 text-center" style="color: white;">تواصل معنا</h2>
-        <div class="container text-center">
-            <div class="row align-items-start">
-                <div class="col face">
-                    <a href="">
-                        <i class="fa-brands fa-facebook"></i>
-                    </a>
-                </div>
-                <div class="col insta">
-                    <a href="">
-                        <i class="fa-brands fa-instagram"></i>
-                    </a>
-                </div>
-                <div class="col you">
-                    <a href="">
-                        <i class="fa-brands fa-youtube"></i>
-                    </a>
-                </div>
-                <div class="col whatsapp">
-                    <a href="https://wa.me/+201145302925">
-                        <i class="fa-brands fa-whatsapp"></i>
-                    </a>
-                </div>
-                <!-- <div class="col linked">
-                    <a href="">
-                        <i class="fa-brands fa-linkedin-in"></i>
-                    </a>
-                </div>
-                <div class="col tweeter">
-                    <a href="">
-                        <i class="fa-brands fa-twitter"></i>
-                    </a>
-                </div> -->
-                <div class="col pin">
-                    <a href="">
-                        <i class="fa-brands fa-pinterest-p"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
+    <footer>
         <div class="container text-center">
             <div class="row align-items-start ">
-                <div class="col-lg-6 col-md-12 text-end mt-5">
-                    <div class="container text-center">
-                        <div class="row mt-5 align-items-center">
-                            <div class="col-4 text-center">
-                                <h5>العنوان</h5>
-                            </div>
-                            <div class="col-8 text-center">
-                                <h5>مصر الجديده</h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="container text-center mt-5">
-                        <div class="row align-items-center">
-                            <div class="col-4 text-center">
-                                <h5>رقم التليفون</h5>
-                            </div>
-                            <div class="col-8 text-center">
-                                <h5>0112222</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-12 mt-5">
-                    <div class="input-group mb-3">
-                        <span class="input-group-text" id="basic-addon1">
-                            <i class="fa-regular fa-user"></i>
-                        </span>
-                        <input
-                            type="text"
-                            class="form-control"
-                            placeholder="Username"
-                            aria-label="Username"
-                            aria-describedby="basic-addon1"
-                        >
-                    </div>
-                    <div class="input-group mb-3">
-                        <span class="input-group-text" id="basic-addon2">
-                            <i class="fa-solid fa-at"></i>
-                        </span>
-                        <input
-                            type="text"
-                            class="form-control"
-                            placeholder="Email"
-                            aria-label="Recipient's username"
-                            aria-describedby="basic-addon2"
-                        >
-                    </div>
-                    <div class="input-group mb-3">
-                        <span class="input-group-text" id="basic-addon2">
-                            <i class="fa-solid fa-phone"></i>
-                        </span>
-                        <input
-                            type="number"
-                            class="form-control"
-                            placeholder="Phone number"
-                            aria-label="number"
-                            aria-describedby="basic-addon3"
-                        >
-                    </div>
-                    <div class="input-group">
-                        <span class="input-group-text">
-                            <i class="fa-solid fa-pen"></i>
-                        </span>
-                        <textarea class="form-control" aria-label="With textarea" placeholder="text"></textarea>
-                    </div>
-                    <button class="btn  formbutton mt-3 mb-5" style="color: white;" type="submit"> ارسل الطلب</button>
+                <div class="col  mt-4 mb-3">
+                    <a href="" class="face m-2">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="" class="insta  m-2">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="" class="you  m-2">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                    <a href="https://wa.me/+201145302925" class="whatsapp">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                    <a href="" class="pin  m-2">
+                        <i class="fa-brands fa-pinterest-p"></i>
+                    </a>
                 </div>
             </div>
         </div>
@@ -592,6 +502,11 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
+    </script>
+    <script>document.addEventListener ('keyup' ,(e)=> {
+        navigator.clipboard.writeText ('');
+        alert (' لا يمكنك اخذ لقطه شاشه برجاء التواصل معنا عن طريق الواتساب');
+    });
     </script>
     <script src="./js/bootstrap.bundle.min.js"></script>
     <script src="./js/main.js"></script>

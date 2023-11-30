@@ -195,13 +195,14 @@ nav {
 
 
 
+
 footer {
-  background-color: var(--color3);
+  background-color: var(--color2);
 }
 
 footer a {
   text-decoration: none;
-  font-size: 50px;
+  font-size: 30px;
   text-align: center;
   height: 100%;
   width: 50%;
@@ -213,38 +214,38 @@ footer h5 {
   color: white;
 }
 
-.whatsapp a:hover {
+.whatsapp :hover {
   color: #25d366;
 
 }
 
-.face a:hover {
+.face :hover {
   color: #1877f2;
 
 }
 
 
-.you a:hover {
+.you :hover {
   color: #ff0000;
 
 }
 
-.pin a:hover {
+.pin :hover {
   color: #e60023;
 
 }
 
-.tweeter a:hover {
+.tweeter :hover {
   color: #1da1f2;
 
 }
 
-.linked a:hover {
+.linked :hover {
   color: #0a66c2;
 
 }
 
-.insta a:hover {
+.insta :hover {
   background: -webkit-linear-gradient(#5851db, #833ab4, #c13584, #fd1d1d, #f56040, #f77737, #fcaf45, #ffdc80);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -252,7 +253,16 @@ footer h5 {
 
 .lastsec {
   color: white;
-  background-color: black
+  background-color: black;
+  position: relative;
+
+  z-index: 100;
+
+}
+
+.lastsec p {
+  font-size: 10px;
+  margin-bottom: 1px;
 }
 
 
