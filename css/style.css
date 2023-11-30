@@ -102,7 +102,7 @@ nav {
 }
 
 .navbar ul {
-    margin-left: ;
+
     list-style-type: none;
 }
 
@@ -255,7 +255,7 @@ p {
 }
 
 footer {
-    background-color: var(--color2);
+    background-color: #3d1501;
 }
 
 footer a {
