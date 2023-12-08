@@ -334,4 +334,22 @@ footer h5 {
         color: white;
     }
 
+
+}
+
+
+@media only screen and (max-width: 500px) {
+
+    .desk {
+        display: none;
+    }
+
+}
+
+@media only screen and (min-width: 500px) {
+
+    .mob {
+        display: none;
+    }
+
 }
