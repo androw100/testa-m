@@ -93,7 +93,7 @@ nav {
   position: relative;
   color: black;
   font-size: 18px;
-  margin-left: 10px;
+  /* margin-left: 10px; */
 }
 
 .nav-link::after {

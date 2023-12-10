@@ -93,7 +93,7 @@ nav {
   position: relative;
   color: black;
   font-size: 18px;
-  margin-left: 10px;
+  /* margin-left: 10px; */
 }
 
 .nav-link::after {
@@ -164,6 +164,7 @@ nav {
 .a-contact a {
   text-decoration: none;
   color: white;
+  padding-inline: 5px;
 }
 
 .a-contact:hover {
@@ -182,6 +183,7 @@ nav {
 .a-order a {
   text-decoration: none;
   color: white;
+  padding-inline: 5px;
 }
 
 .a-order:hover {

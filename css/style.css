@@ -1,22 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
 
 
+
 :root {
     --color1: #d18852;
     --color2: #ad572b;
     --color3: #592f10;
     --color4: #4a8e33;
-
-
+    user-select: none;
 }
 
 * {
     font-family: 'Tajawal', sans-serif;
     scroll-behavior: smooth;
-}
-
-html {
-    user-select: none;
 }
 
 /********** whatsapp icon **************/
@@ -131,7 +127,7 @@ nav {
     position: relative;
     color: black;
     font-size: 18px;
-    margin-left: 10px;
+    /* margin-left: 10px; */
 }
 
 .nav-link::after {
@@ -141,7 +137,7 @@ nav {
     background-color: var(--color1);
     position: absolute;
     left: 10px;
-    top: 80%;
+    bottom: 8px;
 }
 
 .nav-link:hover::after {
@@ -215,11 +211,13 @@ nav {
     text-decoration: none;
     color: white;
     border-radius: 20px;
+
 }
 
 .a-order a {
     text-decoration: none;
     color: white;
+
 }
 
 .a-order:hover {
