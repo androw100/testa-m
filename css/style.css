@@ -188,7 +188,7 @@ nav {
 
 
 .a-contact {
-    background: var(--color2);
+    background: var(--color3);
     text-decoration: none;
     color: white;
     border-radius: 20px;
@@ -201,13 +201,13 @@ nav {
 }
 
 .a-contact:hover {
-    background: var(--color3);
+    background: var(--color2);
 }
 
 
 
 .a-order {
-    background: var(--color2);
+    background: var(--color3);
     text-decoration: none;
     color: white;
     border-radius: 20px;
@@ -221,7 +221,7 @@ nav {
 }
 
 .a-order:hover {
-    background: var(--color3);
+    background: var(--color2);
 }
 
 

@@ -103,7 +103,7 @@ nav {
   background-color: var(--color1);
   position: absolute;
   left: 10px;
-  top: 80%;
+  bottom: 8px;
 }
 
 .nav-link:hover::after {
@@ -152,9 +152,8 @@ nav {
   height: 110vh;
 } */
 
-
 .a-contact {
-  background: var(--color2);
+  background: var(--color3);
   text-decoration: none;
   color: white;
   border-radius: 20px;
@@ -167,25 +166,27 @@ nav {
 }
 
 .a-contact:hover {
-  background: var(--color3);
+  background: var(--color2);
 }
 
 
 
 .a-order {
-  background: var(--color2);
+  background: var(--color3);
   text-decoration: none;
   color: white;
   border-radius: 20px;
+
 }
 
 .a-order a {
   text-decoration: none;
   color: white;
+
 }
 
 .a-order:hover {
-  background: var(--color3);
+  background: var(--color2);
 }
 
 
