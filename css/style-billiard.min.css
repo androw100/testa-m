@@ -1,1 +1,244 @@
-@import url(https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap);:root{--color1:#d18852;--color2:#ad572b;--color3:#592f10;--color4:#4a8e33}*{font-family:Tajawal,sans-serif;scroll-behavior:smooth}.logo img{height:55px;width:auto;display:block;mix-blend-mode:difference}.logo{position:fixed;bottom:25px;right:10px;display:block;z-index:200000;transition:all 250ms linear}::-webkit-scrollbar{width:13px}::-webkit-scrollbar-track{border-radius:15px;box-shadow:inset 0 0 5px rgba(0,0,0,.5)}::-webkit-scrollbar-thumb{background:var(--color1);border-radius:15px}nav img{height:50px}nav{box-shadow:0 0 10px rgba(0,0,0,.5)}.navbar ul{list-style-type:none}.navbar ul li a:hover{color:var(--color1)}.nav_icon i{position:relative;left:200px;padding-left:15px;cursor:pointer;font-size:18px}.nav_icon i:hover{color:var(--color1);transition:.5s}.navbar-nav .nav-link.active:hover{color:var(--color1)}.nav-link{position:relative;color:#000;font-size:18px}.nav-link::after{content:"";width:0;height:2px;background-color:var(--color1);position:absolute;left:10px;top:80%}.nav-link:hover::after{width:70%;transition:.5s}.mydrop{border:none;font-size:18px;padding:8px;align-items:start;margin-top:0}.myback{background-image:url(../image/D7.jpg);background-attachment:fixed;display:flex;text-align:center;align-content:center;justify-content:center;height:90vh}.mytext{margin-top:220px;color:#fff}.mytext h2{font-size:26px;font-weight:700}.mytext p{font-size:22px;font-weight:500}.a-contact{background:var(--color2);text-decoration:none;color:#fff;border-radius:20px}.a-contact a{text-decoration:none;color:#fff}.a-contact:hover{background:var(--color3)}.a-order{background:var(--color2);text-decoration:none;color:#fff;border-radius:20px}.a-order a{text-decoration:none;color:#fff}.a-order:hover{background:var(--color3)}.thumbnail_1 img{width:120px}.thumbnail_2 img{width:120px}.thumbnail_3 img{width:120px}.thumbnail_4 img{width:120px}footer{background-color:#3d1501}footer a{text-decoration:none;font-size:30px;text-align:center;height:100%;width:50%;color:#fff}footer h5{color:#fff}.whatsapp :hover{color:#25d366}.face :hover{color:#1877f2}.you :hover{color:red}.pin :hover{color:#e60023}.tweeter :hover{color:#1da1f2}.linked :hover{color:#0a66c2}.insta :hover{background:-webkit-linear-gradient(#5851db,#833ab4,#c13584,#fd1d1d,#f56040,#f77737,#fcaf45,#ffdc80);-webkit-background-clip:text;-webkit-text-fill-color:transparent}.lastsec{color:#fff;background-color:#000;position:relative;z-index:100}.lastsec p{font-size:10px;margin-bottom:1px}@media only screen and (max-width:500px){.mytext{margin-top:150px;color:#fff}}
+@import url(https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap);
+
+:root {
+    --color1: #d18852;
+    --color2: #ad572b;
+    --color3: #592f10;
+    --color4: #4a8e33
+}
+
+* {
+    font-family: Tajawal, sans-serif;
+    scroll-behavior: smooth
+}
+
+.logo img {
+    height: 55px;
+    width: auto;
+    display: block;
+    mix-blend-mode: difference
+}
+
+.logo {
+    position: fixed;
+    bottom: 25px;
+    right: 10px;
+    display: block;
+    z-index: 200000;
+    transition: all 250ms linear
+}
+
+::-webkit-scrollbar {
+    width: 13px
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 15px;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, .5)
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--color1);
+    border-radius: 15px
+}
+
+nav img {
+    height: 50px
+}
+
+nav {
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5)
+}
+
+.navbar ul {
+    list-style-type: none
+}
+
+.navbar ul li a:hover {
+    color: var(--color1)
+}
+
+.nav_icon i {
+    position: relative;
+    left: 200px;
+    padding-left: 15px;
+    cursor: pointer;
+    font-size: 18px
+}
+
+.nav_icon i:hover {
+    color: var(--color1);
+    transition: .5s
+}
+
+.navbar-nav .nav-link.active:hover {
+    color: var(--color1)
+}
+
+.nav-link {
+    position: relative;
+    color: #000;
+    font-size: 18px
+}
+
+.nav-link::after {
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: var(--color1);
+    position: absolute;
+    left: 10px;
+    top: 80%
+}
+
+.nav-link:hover::after {
+    width: 70%;
+    transition: .5s
+}
+
+.mydrop {
+    border: none;
+    font-size: 18px;
+    padding: 8px;
+    align-items: start;
+    margin-top: 0
+}
+
+.myback {
+    background-image: url(../image/D7.jpg);
+    background-attachment: fixed;
+    display: flex;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    height: 90vh
+}
+
+.mytext {
+    margin-top: 220px;
+    color: #fff
+}
+
+.mytext h2 {
+    font-size: 26px;
+    font-weight: 700
+}
+
+.mytext p {
+    font-size: 22px;
+    font-weight: 500
+}
+
+.a-contact {
+    background: var(--color2);
+    text-decoration: none;
+    color: #fff;
+    border-radius: 20px
+}
+
+.a-contact a {
+    text-decoration: none;
+    color: #fff
+}
+
+.a-contact:hover {
+    background: var(--color3)
+}
+
+.a-order {
+    background: var(--color2);
+    text-decoration: none;
+    color: #fff;
+    border-radius: 20px
+}
+
+.a-order a {
+    text-decoration: none;
+    color: #fff
+}
+
+.a-order:hover {
+    background: var(--color3)
+}
+
+.thumbnail_1 img {
+    width: 120px
+}
+
+.thumbnail_2 img {
+    width: 120px
+}
+
+.thumbnail_3 img {
+    width: 120px
+}
+
+.thumbnail_4 img {
+    width: 120px
+}
+
+footer {
+    background-color: #3d1501
+}
+
+footer a {
+    text-decoration: none;
+    font-size: 30px;
+    text-align: center;
+    height: 100%;
+    width: 50%;
+    color: #fff
+}
+
+footer h5 {
+    color: #fff
+}
+
+.whatsapp :hover {
+    color: #25d366
+}
+
+.face :hover {
+    color: #1877f2
+}
+
+.you :hover {
+    color: red
+}
+
+.pin :hover {
+    color: #e60023
+}
+
+.tweeter :hover {
+    color: #1da1f2
+}
+
+.linked :hover {
+    color: #0a66c2
+}
+
+.insta :hover {
+    background: -webkit-linear-gradient(#5851db, #833ab4, #c13584, #fd1d1d, #f56040, #f77737, #fcaf45, #ffdc80);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent
+}
+
+.lastsec {
+    color: #fff;
+    background-color: #000;
+    position: relative;
+    z-index: 100
+}
+
+.lastsec p {
+    font-size: 10px;
+    margin-bottom: 1px
+}
+
+@media only screen and (max-width:500px) {
+    .mytext {
+        margin-top: 150px;
+        color: #fff
+    }
+}

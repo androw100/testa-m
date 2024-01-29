@@ -8,6 +8,10 @@
     --color3: #592f10;
     --color4: #4a8e33;
     user-select: none;
+
+    img {
+        border-radius: 15px;
+    }
 }
 
 * {

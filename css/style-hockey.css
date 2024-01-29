@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap");
 
 :root {
   --color1: #d18852;
@@ -7,11 +6,13 @@
   --color3: #592f10;
   --color4: #4a8e33;
 
-
+  img {
+    border-radius: 15px;
+  }
 }
 
 * {
-  font-family: 'Tajawal', sans-serif;
+  font-family: "Tajawal", sans-serif;
   scroll-behavior: smooth;
 }
 
@@ -49,10 +50,6 @@
 }
 
 /* end scroll */
-
-
-
-
 
 /* navbar */
 nav img {
@@ -120,7 +117,8 @@ nav {
 }
 
 .myback {
-  background-image: url(../image/D5.jpg);
+  background-image: url(../image/d11.jpg);
+  /* background-repeat: no-repeat; */
   background-attachment: fixed;
   display: flex;
   text-align: center;
@@ -152,13 +150,11 @@ nav {
   height: 110vh;
 } */
 
-
 .a-contact {
   background: var(--color3);
   text-decoration: none;
   color: white;
   border-radius: 20px;
-
 }
 
 .a-contact a {
@@ -170,34 +166,25 @@ nav {
   background: var(--color2);
 }
 
-
-
 .a-order {
   background: var(--color3);
   text-decoration: none;
   color: white;
   border-radius: 20px;
-
 }
 
 .a-order a {
   text-decoration: none;
   color: white;
-
 }
 
 .a-order:hover {
   background: var(--color2);
 }
 
-
-
-
-
 .thumbnail_1 img {
   width: 120px;
 }
-
 
 footer {
   background-color: #3d1501;
@@ -209,8 +196,7 @@ footer a {
   text-align: center;
   height: 100%;
   width: 50%;
-  color: #FFf;
-
+  color: #fff;
 }
 
 footer h5 {
@@ -219,37 +205,39 @@ footer h5 {
 
 .whatsapp :hover {
   color: #25d366;
-
 }
 
 .face :hover {
   color: #1877f2;
-
 }
-
 
 .you :hover {
   color: #ff0000;
-
 }
 
 .pin :hover {
   color: #e60023;
-
 }
 
 .tweeter :hover {
   color: #1da1f2;
-
 }
 
 .linked :hover {
   color: #0a66c2;
-
 }
 
 .insta :hover {
-  background: -webkit-linear-gradient(#5851db, #833ab4, #c13584, #fd1d1d, #f56040, #f77737, #fcaf45, #ffdc80);
+  background: -webkit-linear-gradient(
+    #5851db,
+    #833ab4,
+    #c13584,
+    #fd1d1d,
+    #f56040,
+    #f77737,
+    #fcaf45,
+    #ffdc80
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -260,7 +248,6 @@ footer h5 {
   position: relative;
 
   z-index: 100;
-
 }
 
 .lastsec p {
@@ -268,12 +255,9 @@ footer h5 {
   margin-bottom: 1px;
 }
 
-
 @media only screen and (max-width: 500px) {
-
   .mytext {
     margin-top: 150px;
     color: white;
   }
-
 }

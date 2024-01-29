@@ -7,6 +7,9 @@
   --color3: #592f10;
   --color4: #4a8e33;
 
+  img {
+    border-radius: 15px;
+  }
 
 }
 
