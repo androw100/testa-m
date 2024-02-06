@@ -263,4 +263,8 @@ footer h5 {
     margin-top: 150px;
     color: white;
   }
+
+  .colorimg {
+    height: 40px;
+  }
 }
