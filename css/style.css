@@ -1,55 +1,53 @@
-@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
-
-
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap");
 
 :root {
-    --color1: #d18852;
-    --color2: #ad572b;
-    --color3: #592f10;
-    --color4: #4a8e33;
-    user-select: none;
+  --color1: #d18852;
+  --color2: #ad572b;
+  --color3: #592f10;
+  --color4: #4a8e33;
+  user-select: none;
 
-    img {
-        border-radius: 15px;
-    }
+  img {
+    border-radius: 15px;
+  }
 }
 
 * {
-    font-family: 'Tajawal', sans-serif;
-    scroll-behavior: smooth;
+  font-family: "Tajawal", sans-serif;
+  scroll-behavior: smooth;
 }
 
 /********** whatsapp icon **************/
 .logo img {
-    height: 55px;
-    width: auto;
-    display: block;
-    mix-blend-mode: difference;
+  height: 55px;
+  width: auto;
+  display: block;
+  mix-blend-mode: difference;
 }
 
 .logo {
-    position: fixed;
-    bottom: 25px;
-    right: 10px;
-    display: block;
-    z-index: 200000;
-    transition: all 250ms linear;
+  position: fixed;
+  bottom: 25px;
+  right: 10px;
+  display: block;
+  z-index: 200000;
+  transition: all 250ms linear;
 }
 
 /*--------------- start nav---------------- */
 
 ::-webkit-scrollbar {
-    width: 13px;
+  width: 13px;
 }
 
 ::-webkit-scrollbar-track {
-    border-radius: 15px;
-    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
 ::-webkit-scrollbar-thumb {
-    background: var(--color1);
-    border-radius: 15px;
+  background: var(--color1);
+  border-radius: 15px;
 }
 
 /* end scroll */
@@ -59,12 +57,12 @@
 } */
 
 svg {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    z-index: 0
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 0;
 }
 
 /* .slide {
@@ -72,114 +70,110 @@ svg {
 } */
 
 .container {
-    position: relative;
+  position: relative;
 
-    z-index: 100;
+  z-index: 100;
 }
 
 footer {
-    position: relative;
+  position: relative;
 
-    z-index: 100;
+  z-index: 100;
 }
-
 
 a img.icon {
-    display: inline-block;
-    height: 1em;
-    margin: 0 0 -0.1em 0.3em;
+  display: inline-block;
+  height: 1em;
+  margin: 0 0 -0.1em 0.3em;
 }
-
-
 
 /* navbar */
 nav img {
-    height: 50px;
+  height: 50px;
 }
 
 nav {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .navbar ul {
-
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .navbar ul li a:hover {
-    color: var(--color1);
+  color: var(--color1);
 }
 
 .nav_icon i {
-    position: relative;
-    left: 200px;
-    padding-left: 15px;
-    cursor: pointer;
-    font-size: 18px;
+  position: relative;
+  left: 200px;
+  padding-left: 15px;
+  cursor: pointer;
+  font-size: 18px;
 }
 
 .nav_icon i:hover {
-    color: var(--color1);
-    transition: 0.5s;
+  color: var(--color1);
+  transition: 0.5s;
 }
 
 .navbar-nav .nav-link.active:hover {
-    color: var(--color1);
+  color: var(--color1);
 }
 
 .nav-link {
-    position: relative;
-    color: black;
-    font-size: 18px;
-    /* margin-left: 10px; */
+  position: relative;
+  color: black;
+  font-size: 18px;
+  /* margin-left: 10px; */
 }
 
 .nav-link::after {
-    content: "";
-    width: 0px;
-    height: 2px;
-    background-color: var(--color1);
-    position: absolute;
-    left: 10px;
-    bottom: 8px;
+  content: "";
+  width: 0px;
+  height: 2px;
+  background-color: var(--color1);
+  position: absolute;
+  left: 10px;
+  bottom: 8px;
 }
 
 .nav-link:hover::after {
-    width: 70%;
-    transition: 0.5s;
+  width: 70%;
+  transition: 0.5s;
 }
 
 .mydrop {
-    border: none;
-    font-size: 18px;
-    padding: 8px;
-    align-items: start;
-    margin-top: 0;
+  border: none;
+  font-size: 18px;
+  padding: 8px;
+  align-items: start;
+  margin-top: 0;
 }
 
 .myback {
-    background-image: url(../image/D1.jpg);
-    background-attachment: fixed;
-    display: flex;
-    text-align: center;
-    align-content: center;
-    justify-content: center;
-    height: 90vh;
+  background-image: url(../image/D1.jpg);
+  background-attachment: fixed;
+  display: flex;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  height: 90vh;
 }
 
 .mytext {
-    margin-top: 220px;
-    color: white;
+  margin-top: 220px;
+  color: white;
 }
 
 .mytext h2 {
-    font-size: 26px;
-    font-weight: 700;
+  font-size: 26px;
+  font-weight: 700;
 }
 
 .mytext p {
-    font-size: 22px;
-    font-weight: 500;
+  font-size: 22px;
+  font-weight: 500;
 }
 
 /* .prodect-img{
@@ -190,61 +184,54 @@ nav {
     height: 110vh;
 } */
 
-
 .a-contact {
-    background: var(--color3);
-    text-decoration: none;
-    color: white;
-    border-radius: 20px;
-
+  background: var(--color3);
+  text-decoration: none;
+  color: white;
+  border-radius: 20px;
 }
 
 .a-contact a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 .a-contact:hover {
-    background: var(--color2);
+  background: var(--color2);
 }
 
-
-
 .a-order {
-    background: var(--color3);
-    text-decoration: none;
-    color: white;
-    border-radius: 20px;
-
+  background: var(--color3);
+  text-decoration: none;
+  color: white;
+  border-radius: 20px;
 }
 
 .a-order a {
-    text-decoration: none;
-    color: white;
-
+  text-decoration: none;
+  color: white;
 }
 
 .a-order:hover {
-    background: var(--color2);
+  background: var(--color2);
 }
 
-
 .myborder2 {
-    border-right: var(--color2) solid 2px;
-    padding-right: 3px;
+  border-right: var(--color2) solid 2px;
+  padding-right: 3px;
 }
 
 .shadowt {
-    background-color: white;
-    /* width: 45%; */
+  background-color: white;
+  /* width: 45%; */
 }
 
 .myrow {
-    margin-right: auto;
+  margin-right: auto;
 }
 
 p {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 /* .slide {
@@ -252,77 +239,78 @@ p {
 } */
 
 .myborder_rud {
-    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
-    border-radius: 15px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px,
+    rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+  border-radius: 15px;
 }
 
 footer {
-    background-color: #3d1501;
+  background-color: #3d1501;
 }
 
 footer a {
-    text-decoration: none;
-    font-size: 30px;
-    text-align: center;
-    height: 100%;
-    width: 50%;
-    color: #FFf;
-
+  text-decoration: none;
+  font-size: 30px;
+  text-align: center;
+  height: 100%;
+  width: 50%;
+  color: #fff;
 }
 
 footer h5 {
-    color: white;
+  color: white;
 }
 
 .whatsapp :hover {
-    color: #25d366;
-
+  color: #25d366;
 }
 
 .face :hover {
-    color: #1877f2;
-
+  color: #1877f2;
 }
 
-
 .you :hover {
-    color: #ff0000;
-
+  color: #ff0000;
 }
 
 .pin :hover {
-    color: #e60023;
-
+  color: #e60023;
 }
 
 .tweeter :hover {
-    color: #1da1f2;
-
+  color: #1da1f2;
 }
 
 .linked :hover {
-    color: #0a66c2;
-
+  color: #0a66c2;
 }
 
 .insta :hover {
-    background: -webkit-linear-gradient(#5851db, #833ab4, #c13584, #fd1d1d, #f56040, #f77737, #fcaf45, #ffdc80);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  background: -webkit-linear-gradient(
+    #5851db,
+    #833ab4,
+    #c13584,
+    #fd1d1d,
+    #f56040,
+    #f77737,
+    #fcaf45,
+    #ffdc80
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .lastsec {
-    color: white;
-    background-color: black;
-    position: relative;
+  color: white;
+  background-color: black;
+  position: relative;
 
-    z-index: 100;
-
+  z-index: 100;
 }
 
 .lastsec p {
-    font-size: 10px;
-    margin-bottom: 1px;
+  font-size: 10px;
+  margin-bottom: 1px;
 }
 
 /* html {
@@ -330,28 +318,143 @@ footer h5 {
 } */
 
 @media only screen and (max-width: 500px) {
-
-    .mytext {
-        margin-top: 150px;
-        color: white;
-    }
-
-
+  .mytext {
+    margin-top: 150px;
+    color: white;
+  }
 }
 
-
 @media only screen and (max-width: 500px) {
-
-    .desk {
-        display: none;
-    }
-
+  .desk {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 500px) {
+  .mob {
+    display: none;
+  }
+}
+/* 
+.cursor {
+  display: block;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+  border-radius: 50%;
+  background: transparent;
+  pointer-events: none;
+  z-index: 111;
+  border: 1px solid #000;
+  transition: all 0.2s ease-out;
+  animation: moveCursor1 0.5s infinite alternate;
+}
 
-    .mob {
-        display: none;
-    }
+.expand {
+  background: transparent;
+  animation: moveCursor2 0.5s forwards;
+  border: 1px solid #000;
+}
 
+@keyframes moveCursor1 {
+  from {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(0.8);
+  }
+}
+
+@keyframes moveCursor2 {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(2);
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 0;
+  }
+}
+.cursor {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+  border-radius: 50%;
+  background: transparent;
+  pointer-events: none;
+  z-index: 111;
+  border: 1px solid red;
+  transition: all 0.2s ease-out;
+  animation: moveCursor1 0.5s infinite alternate;
+}
+
+.expand {
+  background: transparent;
+  animation: moveCursor2 0.5s forwards;
+  border: 1px solid #000;
+}
+
+@keyframes moveCursor1 {
+  from {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(0.8);
+  }
+}
+
+@keyframes moveCursor2 {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(2);
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 0;
+  }
+} */
+
+* {
+  cursor: none !important;
+}
+
+#cursor {
+  position: fixed;
+  width: 10px;
+  height: 10px;
+  background-color: var(--color3);
+  border-radius: 100%;
+  pointer-events: none;
+  z-index: 100000;
+  transition: transform ease-out 10ms;
+}
+
+#stalker {
+  position: fixed;
+  margin-top: -15px;
+  margin-left: -15px;
+  width: 40px;
+  height: 40px;
+  background-color: var(--color1);
+  opacity: 30%;
+  border-radius: 100%;
+  pointer-events: none;
+  transition: transform ease-out 100ms;
+  z-index: 9999;
 }
