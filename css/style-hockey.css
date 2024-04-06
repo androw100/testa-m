@@ -118,8 +118,9 @@ nav {
 
 .myback {
   background-image: url(../image/d11.jpg);
-  /* background-repeat: no-repeat; */
   background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100%;
   display: flex;
   text-align: center;
   align-content: center;
@@ -228,16 +229,14 @@ footer h5 {
 }
 
 .insta :hover {
-  background: -webkit-linear-gradient(
-    #5851db,
-    #833ab4,
-    #c13584,
-    #fd1d1d,
-    #f56040,
-    #f77737,
-    #fcaf45,
-    #ffdc80
-  );
+  background: -webkit-linear-gradient(#5851db,
+      #833ab4,
+      #c13584,
+      #fd1d1d,
+      #f56040,
+      #f77737,
+      #fcaf45,
+      #ffdc80);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
